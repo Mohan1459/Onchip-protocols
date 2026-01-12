@@ -48,6 +48,9 @@ module apb_master (
                         state <= IDLE;
                     end
                 end
+                default:begin
+                    state<=IDLE;
+                end
             endcase
         end
     end
